@@ -14,7 +14,7 @@ does not compile on Windows.
 
 ### Linux
 
-#### *libeditline*
+##### libeditline
 
 Fracture needs an editline or readline library in addition to the
 libraries required by LLVM. You will need the "dev" version, in
@@ -28,7 +28,7 @@ You can also install from source. Either is known to work.
 
 ### Mac OSX
 
-#### *XCode*
+##### XCode
 
 You need to have XCode and its command-line-tools installed:
 
@@ -38,11 +38,11 @@ xcode-select --install
 
 Also accept the License Agreement which is presented when opening XCode.
 
-#### *Homebrew*
+##### Homebrew
 
 Homebrew is a package manager like `apt-get` for OSX and is needed to install additional packages. Instructions on how to install Homebrew see [brew.sh](http://brew.sh).
 
-#### *autoconf* and *automake*
+##### autoconf and automake
 
 Both are needed to automatically configure the source-code of LLVM, Clang and fracture and can be installed via `Homebrew`. 
 
