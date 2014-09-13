@@ -1,3 +1,6 @@
+# Created documentation from doxygen
+docs/dox/
+
 # Compiled Object files
 *.slo
 *.lo
